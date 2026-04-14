@@ -747,6 +747,7 @@ body.modal-open .feature-close {
 
   .nav {
     gap: 20px;
+    width: 100%
   }
 
   .nav a {
@@ -828,4 +829,8 @@ rgba(0,0,0,0.6) 97%,
 .hero-btn span{
   font-size: 18px;
 }
+
+.current-profile-name{
+    display: none;
+    }
 }
