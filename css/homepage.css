@@ -2477,25 +2477,39 @@ rgba(0,0,0,0.6) 97%,
   font-size: 18px;
 }
 
-  .my-list-section {
-    padding: 0px 12px 24px;
+
+.my-list-section {
+    padding: 18px 12px 24px;
   }
 
-  .my-list-title {
-    font-size: 24px;
+  .my-list-scroll {
+    overflow: visible;
+    overflow-x: hidden;
+    overflow-y: visible;
   }
 
   .my-list-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 0;
   }
 
   .my-card {
-    width: 140px;
-    flex-basis: 140px;
+    width: 100%;
+    flex: none;
+    min-width: 0;
+    max-width: 190px;
   }
 
   .my-card-image {
-    width: 140px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 288 / 164;
+    object-fit: cover;
+    display: block;
   }
 
   .detail-frame {
@@ -2973,5 +2987,8 @@ rgba(0,0,0,0.6) 97%,
   .skills-title, .language-title{
     margin-top: 50px;
   }
+
+
 }
+
 
