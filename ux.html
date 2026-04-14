@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>UX Design | 문아현 포트폴리오</title>
+
+  <!-- Remix Icon -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- Pretendard -->
+  <link
+    rel="stylesheet"
+    as="style"
+    crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+  />
+
+  <!-- Montserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    rel="stylesheet"
+  />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/details.css">
+
+    <!-- emailJS cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <header class="header">
+        <div class="header-left">
+          <a href="index.html" aria-label="Hilary Home">
+            <img
+              src="images/netflix.png"
+              alt="Hilary logo"
+              class="header-logo"
+            />
+          </a>
+
+
+        <nav class="nav" aria-label="Main navigation">
+            <a href="homepage.html">Home</a>
+            <a href="about.html" class="active">About Hilary</a>
+            <a href="vid.html">Videography</a>
+            <a href="branding.html">Branding & Illustrator</a>
+            <a href="ui.html">UI Design</a>
+            <a href="#" style="color: #E50914;">UX Design</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+
+
+      </header>
+
+
+    
+    
+        <section class="my-list-section" aria-labelledby="my-list-title">
+        <h2 class="my-list-title" id="my-list-title">UX Design</h2>
+
+        <div class="my-list-scroll">
+          <div class="my-list-row">
+
+            <article class="my-card" data-detail-image="images/ollie-port.png" data-title="AR기술 장보기 서비스 '올잇'" tabindex="0" role="button" aria-label="Open Ollie detail">
+              <img src="images/ollie.png" alt="image 2" class="my-card-image" />
+            </article>
+
+        
+            <article class="my-card" data-detail-image="images/badar-port.png" data-title="BADAR 미스테리박스 UX 디자인" tabindex="0" role="button" aria-label="Open BADAR detail">
+              <img src="images/BADAR.png" alt="image 4" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/pride-port.png" tabindex="0" data-title="The Pride - 디지털 아카이브 UX 디자인" role="button" aria-label="Open ThePride detail">
+              <img src="images/ThePride.png" alt="image 5" class="my-card-image" />
+            </article>
+
+          </div>
+        </div>
+        <div class="detail-overlay" id="detailOverlay" aria-hidden="true">
+  <div class="detail-frame" role="dialog" aria-modal="true" aria-label="Project detail overlay">
+    <button class="detail-close" id="detailClose" type="button" aria-label="Close overlay">
+      <i class="ri-close-circle-line"></i>
+    </button>
+
+    <div class="detail-scroll" id="detailScroll">
+      <img id="detailImage" class="detail-image" src="" alt="Project detail image" />
+      <div class="detail-end-space" id="detailEndSpace"></div>
+    </div>
+  </div>
+</div>
+  </main>
+</body>
+  <script src="js/custom.js"></script>
+</html>

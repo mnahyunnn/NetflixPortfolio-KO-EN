@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>Videography | 문아현 포트폴리오</title>
+
+  <!-- Remix Icon -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- Pretendard -->
+  <link
+    rel="stylesheet"
+    as="style"
+    crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+  />
+
+  <!-- Montserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    rel="stylesheet"
+  />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/details.css">
+
+    <!-- emailJS cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <header class="header">
+        <div class="header-left">
+          <a href="index.html" aria-label="Hilary Home">
+            <img
+              src="images/netflix.png"
+              alt="Hilary logo"
+              class="header-logo"
+            />
+          </a>
+
+
+        <nav class="nav" aria-label="Main navigation">
+            <a href="homepage.html">Home</a>
+            <a href="about.html" class="active">About Hilary</a>
+            <a href="#" style="color: #E50914;">Videography</a>
+            <a href="branding.html">Branding & Illustrator</a>
+            <a href="ui.html">UI Design</a>
+            <a href="ux.html">UX Design</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+
+
+      </header>
+
+
+    
+    
+        <section class="my-list-section" aria-labelledby="my-list-title">
+        <h2 class="my-list-title" id="my-list-title">Videography</h2>
+
+        <div class="my-list-scroll">
+          <div class="my-list-row">
+      
+            <article class="my-card" data-detail-image="images/calli-port.png" tabindex="0" data-title="다큐멘터리 - 인정을 찾는 길: 캘리그라피" role="button" aria-label="Open Calli detail">
+              <img src="images/Calli.png" alt="image 7" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/1941-port.png" tabindex="0" data-title="다큐멘터리 - 1941의 기억: 三年零八個月" role="button" aria-label="Open 1941 detail">
+              <img src="images/1941.png" alt="image 8" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/moonahyun-port.png" data-title="브랜딩 모션그래픽 - 문아현닷콤" tabindex="0" role="button" aria-label="Open moonahyun detail">
+              <img src="images/moonahyun.png" alt="image 9" class="my-card-image" />
+            </article>
+          </div>
+        </div>
+        <div class="detail-overlay" id="detailOverlay" aria-hidden="true">
+  <div class="detail-frame" role="dialog" aria-modal="true" aria-label="Project detail overlay">
+    <button class="detail-close" id="detailClose" type="button" aria-label="Close overlay">
+      <i class="ri-close-circle-line"></i>
+    </button>
+
+    <div class="detail-scroll" id="detailScroll">
+      <img id="detailImage" class="detail-image" src="" alt="Project detail image" />
+      <div class="detail-end-space" id="detailEndSpace"></div>
+    </div>
+  </div>
+</div>
+  </main>
+</body>
+  <script src="js/custom.js"></script>
+</html>

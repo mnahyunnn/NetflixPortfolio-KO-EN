@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <title>Netflix | 문아현 포트폴리오</title>
+
+  <!-- Remix Icon -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- Pretendard -->
+  <link
+    rel="stylesheet"
+    as="style"
+    crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+  />
+
+  <!-- Montserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    rel="stylesheet"
+  />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/homepage.css">
+
+    <!-- emailJS cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="page">
+      <header class="header">
+        <div class="header-left">
+          <a href="index.html" aria-label="Hilary Home">
+            <img
+              src="images/netflix.png"
+              alt="Hilary logo"
+              class="header-logo"
+            />
+          </a>
+
+          <nav class="nav" aria-label="Main navigation">
+            <a href="#">Home</a>
+            <a href="about.html">About Hilary</a>
+            <a href="vid.html">Videography</a>
+            <a href="branding.html">Branding & Illustrator</a>
+            <a href="ui.html">UI Design</a>
+            <a href="ux.html">UX Design</a>
+            <a href="#" style="color: #E50914;">Contact</a>
+          </nav>
+        </div>
+
+      </header>
+<!-- contact -->
+ <section class="contact-section" id="contact">
+  <div class="contact-inner">
+    <div class="contact-left">
+      <h2 class="contact-title">문의하기</h2>
+      <p class="contact-subtitle">함께 만들 다음 스토리를 기다리고 있습니다.</p>
+
+      <form class="contact-box" id="contact-form">
+        <div class="contact-form-row">
+          <label for="company">회사명</label>
+          <input type="text" id="company" name="company" required placeholder="회사명"/>
+        </div>
+
+        <div class="contact-form-row">
+          <label for="name">이름</label>
+          <input type="text" id="name" name="name" required placeholder="이름" />
+        </div>
+
+        <div class="contact-form-row">
+          <label for="email">이메일</label>
+          <input type="email" id="email" name="email" required placeholder="이메일"/>
+        </div>
+
+        <div class="contact-form-row">
+          <label for="phone">전화번호</label>
+          <input type="text" id="phone" name="phone" required placeholder="전화번호"/>
+        </div>
+
+        <div class=" contact-form-row contact-form-row--textarea">
+          <label for="message">문의 내용</label>
+          <textarea id="message" name="message" placeholder="프로젝트 협업, 채용 문의 등 편하게 남겨주세요."></textarea>
+        </div>
+        
+        <button type="submit" class="contact-submit">제출</button>
+      </form>
+    </div>
+
+    <div class="contact-right">
+      <div class="contact-info-list">
+        <div class="contact-info-item">
+          <span class="contact-info-label">전화번호</span>
+          <span class="contact-info-value">010-9293-9129</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">이메일</span>
+          <span class="contact-info-value">hilarytang316@gmail.com</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">카카오톡</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">인스타그램</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">Behance</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+      </div>
+
+      <img src="images/ahyunlogo.png" alt="Ahyun Logo" class="contact-logo" />
+      
+    </div>
+  </div>
+</section>
+
+
+                    
+                    
+
+</section>
+  <script src="js/custom.js"></script>
+  <script src="js/email.js"></script>
+</body>
+</html>

@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>Netflix | 문아현 포트폴리오</title>
+
+  <!-- Remix Icon -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- Pretendard -->
+  <link
+    rel="stylesheet"
+    as="style"
+    crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+  />
+
+  <!-- Montserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    rel="stylesheet"
+  />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/homepage.css">
+
+    <!-- emailJS cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <header class="header">
+        <div class="header-left">
+          <a href="homepage.html" aria-label="Hilary Home">
+            <img
+              src="images/netflix.png"
+              alt="Hilary logo"
+              class="header-logo"
+            />
+          </a>
+
+          <nav class="nav" aria-label="Main navigation">
+            <a href="#" style="color: #E50914;">Home</a>
+            <a href="about.html">About Hilary</a>
+            <a href="vid.html">Videography</a>
+            <a href="branding.html">Branding & Illustrator</a>
+            <a href="ui.html">UI Design</a>
+            <a href="ux.html">UX Design</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+      
+
+<div class="header-right">
+  <div class="profile-menu" id="profileMenu">
+    <button
+      class="profile-trigger"
+      id="profileTrigger"
+      aria-label="Open profile menu"
+      type="button"
+    >
+    <span class="current-profile-name">대표님</span>
+
+      <img
+        src="images/ceo.png"
+        alt="대표님"
+        class="profile-pic"
+      />
+      <span class="profile-arrow">
+        <i class="ri-arrow-drop-down-fill"></i>
+    </button>
+
+    <div class="dropdown-menu" id="dropdownMenu">
+      <div class="dropdown-caret"></div>
+
+      <div class="dropdown-profiles">
+
+        <a href="homepage.html" class="dropdown-profile-item" data-switch-name="Home" data-switch-image="/images/ahyunlogo.png">
+          <img src="/images/ahyunlogo.PNG" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Home</span>
+        </a>
+
+        <a href="hr.html" class="dropdown-profile-item" data-switch-name="채용자" data-switch-image="/images/hr.png">
+          <img src="/images/hr.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">채용 담당자님</span>
+        </a>
+
+        <a href="ceo.html" class="dropdown-profile-item" data-switch-name="대표님" data-switch-image="/images/ceo.png">
+          <img src="/images/ceo.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">대표님</span>
+        </a>
+
+        <a href="edit.html" class="dropdown-profile-item" data-switch-name="문아현" data-switch-image="/images/me.png">
+          <img src="/images/me.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">문아현</span>
+        </a>
+
+        <a href="stalker.html" class="dropdown-profile-item" data-switch-name="스토커" data-switch-image="/images/stalker.png">
+          <img src="/images/stalker.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">스토커</span>
+        </a>
+
+        <a href="dog.html" class="dropdown-profile-item" data-switch-name="우리집 강아지" data-switch-image="/images/강아지.png">
+          <img src="/images/dogg.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">우리집 강아지</span>
+        </a>
+
+
+
+      <div class="dropdown-divider"></div>
+
+      <button class="dropdown-signout" type="button">
+        뼈를 묻겠습니다! 열심히하겠습니다!
+      </button>
+    </div>
+  </div>
+</div>
+
+
+      </header>
+
+
+      <div class="hero-content">
+         <img src="images/netflix.png" alt="Netflix logo" class="hero-netflix-logo">
+
+        <img
+          src="images/titlecalli.PNG"
+          alt="수상한 외국인"
+          class="title-calligraphy"
+        />
+
+        <h1 class="hero-title">
+          스토리텔링에 미친 여자: 홍콩에서 온 수상한 외국인의 우당탕탕 한국 생활 이야기...
+        </h1>
+
+        <div class="hero-description-group">
+          <p class="hero-description">
+            리서치 → 인사이트 도출 → UX 설계 → 프로토타입 → 테스트 전 과정을 설계하는 UX/UI 디자이너.
+          </p>
+
+          <p class="hero-description">
+            사용자 중심 사고와 비주얼 스토리텔링을 기반으로 직관적이고 몰입도 높은 디지털 경험을 구현합니다.
+          </p>
+
+          <p class="hero-description">
+            호주, 홍콩 등 해외 거주 경험과 K-POP 및 글로벌 문화에 대한 높은 이해를 바탕으로 콘텐츠 설계에 강점을 가지고 있습니다.
+          </p>
+        </div>
+
+             <div class="hero-buttons">
+          <a href="https://www.behance.net/mnahyunn">
+            <button class="hero-btn play" type="button">
+            <i class="ri-play-large-fill"></i>
+            <span>Play</span>
+          </a>
+          </button>
+        
+
+          <button class="hero-btn info" type="button">
+            <a href="about.html">
+            <i class="ri-information-2-line"></i>
+            <span>더 보기</span></a>
+          </button>
+        </div>
+      </div>
+      </section>
+
+      <section class="my-list-section" aria-labelledby="my-list-title">
+        <h2 class="my-list-title" id="my-list-title">My list</h2>
+
+        <div class="my-list-scroll">
+          <div class="my-list-row">
+
+            <article class="my-card" data-detail-image="images/agoda-port.png" data-title="Agoda 반응형 웹사이트 Re-Design" tabindex="0" role="button" aria-label="Open Agoda detail">
+              <img src="images/agoda.png" alt="image 1" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/ollie-port.png" data-title="AR기술 장보기 서비스 '올잇'" tabindex="0" role="button" aria-label="Open Ollie detail">
+              <img src="images/ollie.png" alt="image 2" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/day6-port.png" tabindex="0" data-title="DAY6 x DENIMALZ Mission 9 Illustrator Re-Design" role="button" aria-label="Open Day6 detail">
+              <img src="images/day6.png" alt="image 3" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/badar-port.png" data-title="BADAR 미스테리박스 UX 디자인" tabindex="0" role="button" aria-label="Open BADAR detail">
+              <img src="images/BADAR.png" alt="image 4" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/pride-port.png" tabindex="0" data-title="The Pride - 디지털 아카이브 UX 디자인" role="button" aria-label="Open ThePride detail">
+              <img src="images/ThePride.png" alt="image 5" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/nozama-port.png" tabindex="0" data-title="NOZAMA 데스크탑 UI 디자인" role="button" aria-label="Open Nozama detail">
+              <img src="images/Nozama.png" alt="image 6" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/calli-port.png" tabindex="0" data-title="다큐멘터리 - 인정을 찾는 길: 캘리그라피" role="button" aria-label="Open Calli detail">
+              <img src="images/Calli.png" alt="image 7" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/1941-port.png" tabindex="0" data-title="다큐멘터리 - 1941의 기억: 三年零八個月" role="button" aria-label="Open 1941 detail">
+              <img src="images/1941.png" alt="image 8" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/moonahyun-port.png" data-title="브랜딩 모션그래픽 - 문아현닷콤" tabindex="0" role="button" aria-label="Open moonahyun detail">
+              <img src="images/moonahyun.png" alt="image 9" class="my-card-image" />
+            </article>
+
+            
+          </div>
+        </div>
+        <div class="detail-overlay" id="detailOverlay" aria-hidden="true">
+  <div class="detail-frame" role="dialog" aria-modal="true" aria-label="Project detail overlay">
+    <button class="detail-close" id="detailClose" type="button" aria-label="Close overlay">
+      <i class="ri-close-circle-line"></i>
+    </button>
+
+    <div class="detail-scroll" id="detailScroll">
+      <img id="detailImage" class="detail-image" src="" alt="Project detail image" />
+      <div class="detail-end-space" id="detailEndSpace"></div>
+    </div>
+  </div>
+</div>
+  
+</div>
+      </section>
+    </section>
+  </div>
+
+  
+<section class="portfolio-detail">
+  <div class="feature-panel">
+    <a href="#" class="feature-close" aria-label="Close">
+      <i class="ri-close-circle-line"></i>
+    </a>
+
+    <div class="feature-copy">
+      <h2 class="feature-korean">문아현</h2>
+      <p class="feature-eng">Hilary Tang</p>
+      <p class="feature-chn">鄧雅文</p>
+    </div>
+
+    <img
+      src="images/netflix.png"
+      alt="Ahyun red logo"
+      class="feature-logo"
+    />
+  </div>
+<!-- education -->
+  <section class="education-section">
+    <div class="education-header">
+      <h2 class="education-title">Education</h2>
+      <p class="education-meta">최종학력: 시드니대학교 인터랙션디자인 석사 졸업</p>
+    </div>
+
+    <div class="education-list">
+      <!-- card 1 -->
+      <article class="education-card">
+        <div class="education-degree">석사</div>
+
+        <img
+          src="images/usyd.png"
+          alt="The University of Sydney"
+          class="education-school-image"
+        />
+
+        <div class="education-content">
+          <h3 class="education-school-name"><span class="education-school-name-ko">시드니대학교</span>
+  <span class="education-school-name-en">The University of Sydney</span></h3>
+    
+          <p class="education-major">
+                     <span class="education-major-ko">인터랙션 디자인</span>
+  <span class="education-major-en">Master of Interaction Design and Electronic Arts</span>
+  
+   </p>
+          <p class="education-projects">BADAR | The Pride | NOZAMA</p>
+        </div>
+
+        <p class="education-location">시드니, 오스트레일리아</p>
+      </article>
+
+      <!-- card 2 -->
+      <article class="education-card">
+        <div class="education-degree">학사</div>
+
+        <img
+          src="images/usyd.png"
+          alt="The University of Sydney"
+          class="education-school-image"
+        />
+
+        <div class="education-content">
+          <h3 class="education-school-name">
+  <span class="education-school-name-ko">시드니대학교</span>
+  <span class="education-school-name-en">The University of Sydney</span>
+</h3>
+          <p class="education-major">
+            <span class="education-major-ko">미디어 커뮤니케이션</span>
+  <span class="education-major-en">Bachelor of Advanced Studies (Media and Communications)</span>
+             </p>
+          <p class="education-projects">인정을 찾는 길: 캘리그라피</p>
+        </div>
+
+        <p class="education-location">시드니, 오스트레일리아</p>
+      </article>
+
+      <!-- card 3 -->
+      <article class="education-card">
+        <div class="education-degree">학사</div>
+
+        <img
+          src="images/usyd.png"
+          alt="The University of Sydney"
+          class="education-school-image"
+        />
+
+        <div class="education-content">
+          <h3 class="education-school-name">
+  <span class="education-school-name-ko">시드니대학교</span>
+  <span class="education-school-name-en">The University of Sydney</span>
+</h3>
+          <p class="education-major"><span class="education-major-ko">미디어, 한국어</span>
+  <span class="education-major-en">Bachelor of Arts (Media Studies | Korean Studies)</span>
+   </p>
+          <p class="education-projects">The Memory of 1941</p>
+        </div>
+
+        <p class="education-location">시드니, 오스트레일리아</p>
+      </article>
+
+      <!-- card 4 -->
+      <article class="education-card">
+        <div class="education-degree">부트캠프</div>
+
+        <img
+          src="images/sesac.png"
+          alt="Bootcamp"
+          class="education-school-image"
+        />
+
+        <div class="education-content">
+          <h3 class="education-school-name">SeSAC x 봄아카데미</h3>
+          <p class="education-major">생성형 AI 활용 UX UI 모바일 웹 디자인 부트캠프</p>
+          <p class="education-projects">Agoda | Allit | 데니멀즈 팝업</p>
+        </div>
+
+        <p class="education-location">서울, 대한민국</p>
+      </article>
+    </div></section>
+<!-- experience -->
+  <section class="experience-section">
+  <div class="experience-header">
+    <h2 class="experience-title">Experience</h2>
+  </div>
+
+  <div class="experience-list">
+    <!-- card 1 -->
+    <article class="experience-card">
+      <div class="experience-type">프리랜서</div>
+
+      <img
+        src="images/technimetal.png"
+        alt="Technimetal"
+        class="experience-image"
+      />
+
+      <div class="experience-content">
+        <h3 class="experience-role">UI/UX 디자이너•브랜드 전략</h3>
+        <p class="experience-company">Technimetal Ltd. (홍콩 및 중국)</p>
+
+        <ul class="experience-bullets">
+          <li>미국 비즈니스 고객 피드백 및 소비자 분석을 통해 웹 디자인 개선 방향 도출 및 브랜드 이미지 강화 전략 제안 후 <strong>10+ UX 개선안</strong> 도출.</li>
+          <li>브랜드 아이덴티티 기반 디자인 시안 검토 및 공식 웹사이트 UI/UX 개선 수행.</li>
+          <li>중국 생산팀과 협업하여 디자인, 생산 일정 조율 및 품질과 효율 최적화.</li>
+          <li>프로젝트 일정 및 웹사이트 업데이트 워크플로우를 관리하며 업무 체계화에 기여.</li>
+        </ul>
+      </div>
+
+      <p class="experience-location">홍콩</p>
+    </article>
+
+    <!-- card 2 -->
+    <article class="experience-card">
+      <div class="experience-type">계약</div>
+
+      <img
+        src="images/happipet.png"
+        alt="Happipet"
+        class="experience-image"
+      />
+
+      <div class="experience-content">
+        <h3 class="experience-role">통역 및 PR</h3>
+        <p class="experience-company">Happipet@EJ Mall Official (홍콩)</p>
+
+        <ul class="experience-bullets">
+          <li>한국어 ↔ 광동어 실시간 통역 수행, 홍콩 본사 구매 매니저와 행사 참가 기업 간 원활한 비즈매칭 및 현장 상담 지원.</li>
+          <li>참가 기업과 부스 동선 사전 조사 및 구매 동선 기획으로 현장 운영 효율성 향상.</li>
+          <li>엑셀로 구매자 프로필, 관심 품목, 예산, 주문 가능 제품을 데이터화하여 사후 수익률 및 배송 관리 자료로 활용 후 구매율 <strong>20% 증가</strong>.</li>
+          <li>한국–홍콩 기업 간 수출 상담 및 파트너십 매칭 지원, 신규 거래처 발굴 및 네트워킹 강화.</li>
+          <li>행사 종료 후 미팅 내용 및 협력 가능성 분석 보고서 작성 지원.</li>
+        </ul>
+      </div>
+
+      <p class="experience-location">홍콩</p>
+    </article>
+
+    <!-- card 3 -->
+    <article class="experience-card">
+      <div class="experience-type">인턴</div>
+
+      <img
+        src="images/lokwood.png"
+        alt="Lok Wood Tao Company"
+        class="experience-image"
+      />
+
+      <div class="experience-content">
+        <h3 class="experience-role">해외 음악 - K-POP 홍보 소셜미디어 인턴</h3>
+        <p class="experience-company">Lok Wood Tao Company Ltd (홍콩)</p>
+
+        <ul class="experience-bullets">
+          <li>인스타그램 기반 홍콩 K-POP 팬층 데이터 분석을 통해 지역 맞춤형 콘텐츠 기획, 팔로워 참여율 및 게시물 반응도 향상.</li>
+          <li>릴스와 스토리형 콘텐츠 기획 및 감정 중심 편집 전략 적용 후 <strong>평균 조회수 및 공유율 45% 증가</strong>.</li>
+          <li>브랜드 로고 및 게시물 템플릿 리디자인, 폰트와 컬러 체계 통합으로 시각적 일관성 및 전문성 강화.</li>
+          <li>댓글 및 DM 응대 가이드라인 수립과 디자인 단순화로 사용자 소통 및 몰입도 향상.</li>
+        </ul>
+      </div>
+
+      <p class="experience-location">홍콩</p>
+    </article>
+  </div>
+</section>
+<!-- skill -->
+ <section class="skills-section">
+  <div class="skills-header">
+    <h2 class="skills-title">Skills</h2>
+  </div>
+
+  <div class="skills-grid">
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/figma.png" alt="Figma" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Figma</h3>
+        <p class="skill-meta"> The Pride | NOZAMA | Agoda | Allit</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top skill-card-top--orange">
+        <img src="images/illustrator.png" alt="Illustrator" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Illustrator</h3>
+        <p class="skill-meta">BADAR | The Pride | 데니멀즈</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/aftereffects.png" alt="After Effects" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">After Effects</h3>
+        <p class="skill-meta">인정을 찾는 길 | moonahyuncalli.com</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/premiere.png" alt="Premiere Pro" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Premiere Pro</h3>
+        <p class="skill-meta">The Pride | 인정을 찾는 길 | 1941의 기억</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/miro.png" alt="Miro" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Miro</h3>
+        <p class="skill-meta">BADAR | The Pride | Allit</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top skill-card-top--dark">
+        <img src="images/photoshop.png" alt="Photoshop" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Photoshop</h3>
+        <p class="skill-meta">데니멀즈</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/indesign.png" alt="InDesign" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">InDesign</h3>
+        <p class="skill-meta">BADAR | The Pride</p>
+      </div>
+      
+    </article>
+        <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/audition.png" alt="audition" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Audition</h3>
+        <p class="skill-meta">BADAR | 인정을 찾는 길</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/excel.png" alt="MS Excel" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Excel</h3>
+        <p class="skill-meta">&nbsp;</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/powerpoint.png" alt="MS PowerPoint" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Powerpoint</h3>
+        <p class="skill-meta">&nbsp;</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+<!-- language -->
+<section class="language-section">
+  <div class="language-header">
+    <h2 class="language-title">Language</h2>
+  </div>
+
+  <div class="language-grid">
+    <article class="language-card">
+      <div class="language-content">
+        <div class="language-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="language-name">광동어</h3>
+        <p class="language-meta">모국어</p>
+      </div>
+      <img src="images/hk.png" alt="Hong Kong" class="language-flag">
+    </article>
+
+    <article class="language-card">
+      <div class="language-content">
+        <div class="language-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="language-name">한국어</h3>
+        <span class="language-meta">TOPIK 6급</span>
+  <span class="language-meta-break"></span>
+  <span class="language-meta language-meta-detail">(듣기 100, 읽기 98, 쓰기 57)</span></p>
+      </div>
+      <img src="images/kr.png" alt="Korea" class="language-flag">
+    </article>
+
+    <article class="language-card">
+      <div class="language-content">
+        <div class="language-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="language-name">영어</h3>
+        <span class="language-meta">PTE (Academic) 73</span>
+  <span class="language-meta-break"></span>
+  <span class="language-meta language-meta-detail">≈ TOEIC 950</span>
+  </p>
+      </div>
+      <img src="images/au.png" alt="Australia" class="language-flag">
+    </article>
+
+    <article class="language-card">
+      <div class="language-content">
+        <div class="language-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="language-name">중국어</h3>
+        <p class="language-meta">모국어</p>
+      </div>
+      <img src="images/cn.png" alt="China" class="language-flag">
+    </article>
+  </div>
+</section>
+<!-- contact -->
+ <section class="contact-section" id="contact">
+  <div class="contact-inner">
+    <div class="contact-left">
+      <h2 class="contact-title">문의하기</h2>
+      <p class="contact-subtitle">함께 만들 다음 스토리를 기다리고 있습니다.</p>
+
+      <form class="contact-box" id="contact-form">
+        <div class="contact-form-row">
+          <label for="company">회사명</label>
+          <input type="text" id="company" name="company" required placeholder="회사명"/>
+        </div>
+
+        <div class="contact-form-row">
+          <label for="name">이름</label>
+          <input type="text" id="name" name="name" required placeholder="이름" />
+        </div>
+
+        <div class="contact-form-row">
+          <label for="email">이메일</label>
+          <input type="email" id="email" name="email" required placeholder="이메일"/>
+        </div>
+
+        <div class="contact-form-row">
+          <label for="phone">전화번호</label>
+          <input type="text" id="phone" name="phone" required placeholder="전화번호"/>
+        </div>
+
+        <div class=" contact-form-row contact-form-row--textarea">
+          <label for="message">문의 내용</label>
+          <textarea id="message" name="message" placeholder="프로젝트 협업, 채용 문의 등 편하게 남겨주세요."></textarea>
+        </div>
+        
+        <button type="submit" class="contact-submit">제출</button>
+      </form>
+    </div>
+
+    <div class="contact-right">
+      <div class="contact-info-list">
+        <div class="contact-info-item">
+          <span class="contact-info-label">전화번호</span>
+          <span class="contact-info-value">010-9293-9129</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">이메일</span>
+          <span class="contact-info-value">hilarytang316@gmail.com</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">카카오톡</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">인스타그램</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">Behance</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+      </div>
+
+      <img src="images/ahyunlogo.png" alt="Ahyun Logo" class="contact-logo" />
+      
+    </div>
+  </div>
+</section>
+
+
+                    
+                    
+
+</section>
+  <script src="js/custom.js"></script>
+  <script src="js/email.js"></script>
+</body>
+</html>
