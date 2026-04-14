@@ -2380,7 +2380,7 @@ body.modal-open .feature-close {
    SMALL MOBILE
    ========================= */
 @media screen and (max-width: 480px) {
-  .header {
+   .header {
     padding: 10px 10px;
     align-items: center;
   }
@@ -2990,5 +2990,3 @@ rgba(0,0,0,0.6) 97%,
 
 
 }
-
-
