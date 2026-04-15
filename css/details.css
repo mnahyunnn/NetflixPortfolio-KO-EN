@@ -989,7 +989,7 @@ body.modal-open .feature-close {
     overflow:auto;
 }
       .doggie {
-    background-image: url("/images/doggie-en-long.png"); /* ✅ swapped */
+    background-image: url("/images/doggie-long.png"); /* ✅ swapped */
     width: 100%;
     height: auto;              /* ✅ let image scale naturally */
     max-height: 320px;         /* ✅ control max size */
