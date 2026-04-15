@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>Netflix | Hilary Tang Portfolio</title>
+
+  <!-- Remix Icon -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- Pretendard -->
+  <link
+    rel="stylesheet"
+    as="style"
+    crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+  />
+
+  <!-- Montserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    rel="stylesheet"
+  />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/details-en.css">
+
+    <!-- emailJS cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+  <style>
+    .nav a{display: none}
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <header class="header">
+        <div class="header-left">
+          <a href="loginpage-en.html" aria-label="Hilary Home">
+            <img
+              src="images/netflix.png"
+              alt="Hilary logo"
+              class="header-logo"
+            />
+          </a>
+
+          <nav class="nav" aria-label="Main navigation">
+            <a href="#">Home</a>
+            <a href="about-en.html">About Hilary</a>
+            <a href="vid-en.html">Videography</a>
+            <a href="branding-en.html">Branding & Illustrator</a>
+            <a href="ui-en.html">UI Design</a>
+            <a href="ux-en.html">UX Design</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+      
+
+        <div class="header-right">
+  <div class="profile-menu" id="profileMenu">
+    <button
+      class="profile-trigger"
+      id="profileTrigger"
+      aria-label="Open profile menu"
+      type="button"
+    >
+    <span class="current-profile-name">Shermo</span>
+
+      <img
+        src="images/dogg.png"
+        alt="문아현"
+        class="profile-pic"
+      />
+      <span class="profile-arrow">
+        <i class="ri-arrow-drop-down-fill"></i>
+    </button>
+
+    <div class="dropdown-menu" id="dropdownMenu">
+      <div class="dropdown-caret"></div>
+
+
+      <div class="dropdown-profiles">
+
+        <a href="homepage-en.html" class="dropdown-profile-item" data-switch-name="Home" data-switch-image="images/ahyunlogo.png">
+          <img src="images/ahyunlogo.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Home</span>
+        </a>
+        <a href="hr-en.html" class="dropdown-profile-item" data-switch-name="채용자" data-switch-image="images/hr.png">
+          <img src="images/hr.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Recruitor</span>
+        </a>
+
+        <a href="ceo-en.html" class="dropdown-profile-item" data-switch-name="대표님" data-switch-image="images/ceo.png">
+          <img src="images/ceo.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">CEO</span>
+        </a>
+
+        <a href="edit-en.html" class="dropdown-profile-item" data-switch-name="문아현" data-switch-image="images/me.png">
+          <img src="images/me.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Hilary</span>
+        </a>
+
+        <a href="stalker-en.html" class="dropdown-profile-item" data-switch-name="스토커" data-switch-image="images/stalker.png">
+          <img src="images/stalker.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Stalker</span>
+        </a>
+
+        <a href="dog-en.html" class="dropdown-profile-item" data-switch-name="우리집 강아지" data-switch-image="images/dogg.png">
+          <img src="images/dogg.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Shermo</span>
+        </a>
+
+ <div class="dropdown-divider"></div>
+        <button class="dropdown-signout" type="button">
+       <a href="dog.html">한국어로 전환</a>
+      </button>
+      <div class="dropdown-divider"></div>
+
+      <button class="dropdown-signout" type="button">
+        UWU I LUV YOU!
+      </button>
+    </div>
+  </div>
+</div>
+
+
+      </header>
+<div class="doggie">
+  <img id="dogImage" src="images/doggie-en.png" alt="">
+</div> 
+  
+</section>             
+
+</section>
+<script>
+  function updateDogImage() {
+  const img = document.getElementById('dogImage');
+  if (window.innerWidth <= 480) {
+    img.src = 'images/doggie-en-long.png';
+  } else {
+    img.src = 'images/doggie-en.png';
+  }
+}
+
+window.addEventListener('load', updateDogImage);
+window.addEventListener('resize', updateDogImage);
+</script>
+  <script src="js/custom.js"></script>
+  <script src="js/email.js"></script>
+</body>
+</html>

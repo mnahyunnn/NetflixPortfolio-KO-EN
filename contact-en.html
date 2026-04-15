@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <title>Netflix | Hilary Tang Portfolio</title>
+
+  <!-- Remix Icon -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- Pretendard -->
+  <link
+    rel="stylesheet"
+    as="style"
+    crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+  />
+
+  <!-- Montserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    rel="stylesheet"
+  />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/homepage-en.css">
+
+    <!-- emailJS cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="page">
+      <header class="header">
+        <div class="header-left">
+          <a href="loginpage-en.html" aria-label="Hilary Home">
+            <img
+              src="images/netflix.png"
+              alt="Hilary logo"
+              class="header-logo"
+            />
+          </a>
+
+          <nav class="nav" aria-label="Main navigation">
+            <a href="#">Home</a>
+            <a href="about-en.html">About Hilary</a>
+            <a href="vid-en.html">Videography</a>
+            <a href="branding-en.html">Branding & Illustrator</a>
+            <a href="ui-en.html">UI Design</a>
+            <a href="ux-en.html">UX Design</a>
+            <a href="#" style="color: #E50914;">Contact</a>
+          </nav>
+        </div>
+
+      </header>
+<!-- contact -->
+ <section class="contact-section" id="contact">
+  <div class="contact-inner">
+    <div class="contact-left">
+      <h2 class="contact-title">Contact</h2>
+      <p class="contact-subtitle">Looking forward to creating the next story together!</p>
+
+      <form class="contact-box" id="contact-form">
+        <div class="contact-form-row">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" required placeholder="Company Name"/>
+        </div>
+
+        <div class="contact-form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Name" />
+        </div>
+
+        <div class="contact-form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="Email Address"/>
+        </div>
+
+        <div class="contact-form-row">
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone" required placeholder="Phone Number"/>
+        </div>
+
+        <div class=" contact-form-row contact-form-row--textarea">
+          <label for="message">Your Story</label>
+          <textarea id="message" name="message" placeholder="Every project has a story. Tell me yours."></textarea>
+        </div>
+        
+        <button type="submit" class="contact-submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="contact-right">
+      <div class="contact-info-list">
+        <div class="contact-info-item">
+          <span class="contact-info-label">Phone</span>
+          <span class="contact-info-value">010-9293-9129</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">Email</span>
+          <span class="contact-info-value">hilarytang316@gmail.com</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">KakaoTalk</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">Instagram</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">Behance</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+      </div>
+
+      <img src="images/ahyunlogo.png" alt="Ahyun Logo" class="contact-logo" />
+      
+    </div>
+  </div>
+</section>
+
+
+                    
+                    
+
+</section>
+  <script src="js/custom.js"></script>
+  <script src="js/email.js"></script>
+</body>
+</html>

@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>Netflix | Hilary Tang Portfolio</title>
+
+  <!-- Remix Icon -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- Pretendard -->
+  <link
+    rel="stylesheet"
+    as="style"
+    crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+  />
+
+  <!-- Montserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    rel="stylesheet"
+  />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/homepage-en.css">
+
+    <!-- emailJS cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <header class="header">
+        <div class="header-left">
+          <a href="loginpage-en.html" aria-label="Hilary Home">
+            <img
+              src="images/netflix.png"
+              alt="Hilary logo"
+              class="header-logo"
+            />
+          </a>
+
+          <nav class="nav" aria-label="Main navigation">
+            <a href="#" style="color: #E50914;">Home</a>
+            <a href="about-en.html">About Hilary</a>
+            <a href="vid-en.html">Videography</a>
+            <a href="branding-en.html">Branding & Illustrator</a>
+            <a href="ui-en.html">UI Design</a>
+            <a href="ux-en.html">UX Design</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+      
+
+<div class="header-right">
+  <div class="profile-menu" id="profileMenu">
+    <button
+      class="profile-trigger"
+      id="profileTrigger"
+      aria-label="Open profile menu"
+      type="button"
+    >
+    <span class="current-profile-name">Home</span>
+
+      <img
+        src="images/ahyunlogo.png"
+        alt="Home"
+        class="profile-pic"
+      />
+      <span class="profile-arrow">
+        <i class="ri-arrow-drop-down-fill"></i>
+    </button>
+
+    <div class="dropdown-menu" id="dropdownMenu">
+      <div class="dropdown-caret"></div>
+
+
+      <div class="dropdown-profiles">
+
+        <a href="homepage-en.html" class="dropdown-profile-item" data-switch-name="Home" data-switch-image="images/ahyunlogo.png">
+          <img src="images/ahyunlogo.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Home</span>
+        </a>
+        <a href="hr-en.html" class="dropdown-profile-item" data-switch-name="채용자" data-switch-image="images/hr.png">
+          <img src="images/hr.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Recruitor</span>
+        </a>
+
+        <a href="ceo-en.html" class="dropdown-profile-item" data-switch-name="대표님" data-switch-image="images/ceo.png">
+          <img src="images/ceo.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">CEO</span>
+        </a>
+
+        <a href="edit-en.html" class="dropdown-profile-item" data-switch-name="문아현" data-switch-image="images/me.png">
+          <img src="images/me.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Hilary</span>
+        </a>
+
+        <a href="stalker-en.html" class="dropdown-profile-item" data-switch-name="스토커" data-switch-image="images/stalker.png">
+          <img src="images/stalker.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Stalker</span>
+        </a>
+
+        <a href="dog-en.html" class="dropdown-profile-item" data-switch-name="우리집 강아지" data-switch-image="images/강아지.png">
+          <img src="images/dogg.png" alt="" class="dropdown-profile-pic">
+          <span class="dropdown-profile-name">Shermo</span>
+        </a>
+
+ <div class="dropdown-divider"></div>
+        <button class="dropdown-signout" type="button">
+       <a href="homepage.html">한국어로 전환</a>
+      </button>
+      <div class="dropdown-divider"></div>
+
+      <button class="dropdown-signout" type="button">
+       Select accounts to login.
+      </button>
+    </div>
+  </div>
+</div>
+
+
+      </header>
+
+            <div class="hero-content">
+         <img src="images/netflix.png" alt="Netflix logo" class="hero-netflix-logo">
+
+        <img
+          src="images/titlecalli-eng.png"
+          alt="수상한 외국인"
+          class="title-calligraphy"
+        />
+
+       <h1 class="hero-title">
+          A Suspecious Foreigner: "UdangTANGTANG" Storyteller
+        </h1>
+
+        <div class="hero-description-group">
+          <p class="hero-description">
+A story of living in Korea through a foreign perspective that began in Hong Kong.
+</p>
+
+<p class="hero-description">
+A UX/UI designer who discovers stories through research, connects context through insights, and completes experiences through solution design and testing.
+</p>
+
+<p class="hero-description">
+Hong Kong, Australia, and Korea... across three cultures, she encounters the gap between people and brands.
+</p>
+
+<p class="hero-description">
+And in between, she begins designing bridges for those who want to pass through.
+</p>
+         
+        </div>
+
+             <div class="hero-buttons">
+          <a href="https://www.behance.net/mnahyunn">
+            <button class="hero-btn play" type="button">
+            <i class="ri-play-large-fill"></i>
+            <span>Bēhance</span>
+          </a>
+          </button>
+        
+
+          <button class="hero-btn info" type="button">
+            <a href="about-en.html">
+            <i class="ri-information-2-line"></i>
+            <span>More</span></a>
+          </button>
+        </div>
+      </div>
+      </section>
+
+      <section class="my-list-section" aria-labelledby="my-list-title">
+        <h2 class="my-list-title" id="my-list-title">My list</h2>
+
+        <div class="my-list-scroll">
+          <div class="my-list-row">
+
+            <article class="my-card" data-detail-image="images/agoda-port.png" data-title="Agoda Responsive Website Re-Design" tabindex="0" role="button" aria-label="Open Agoda detail">
+              <img src="images/agoda.png" alt="image 1" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/ollie-port.png" data-title="AR Online Grocery Service 'Allit'" tabindex="0" role="button" aria-label="Open Ollie detail">
+              <img src="images/ollie.png" alt="image 2" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/day6-port.jpg" tabindex="0" data-title="DAY6 x DENIMALZ Mission 9 Illustrator Re-Design" role="button" aria-label="Open Day6 detail">
+              <img src="images/day6.png" alt="image 3" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/badar-port.png" data-title="BADAR Mystery Box UX Design" tabindex="0" role="button" aria-label="Open BADAR detail">
+              <img src="images/BADAR.png" alt="image 4" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/pride-port.png" tabindex="0" data-title="The Pride DIgital Archive UX Design" role="button" aria-label="Open ThePride detail">
+              <img src="images/ThePride.png" alt="image 5" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/nozama-port.png" tabindex="0" data-title="NOZAMA Desktop UI Design" role="button" aria-label="Open Nozama detail">
+              <img src="images/Nozama.png" alt="image 6" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/calli-port.png" tabindex="0" data-title="Documetary - The Way to Appreciation - Korean Calligraphy" role="button" aria-label="Open Calli detail">
+              <img src="images/Calli.png" alt="image 7" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/1941-port.png" tabindex="0" data-title="Documentary - The Memory of 1941: 三年零八個月" role="button" aria-label="Open 1941 detail">
+              <img src="images/1941.png" alt="image 8" class="my-card-image" />
+            </article>
+
+            <article class="my-card" data-detail-image="images/moonahyun-port.png" data-title="Branding Motion Graphic - moonahyuncalli.com" tabindex="0" role="button" aria-label="Open moonahyun detail">
+              <img src="images/moonahyun.png" alt="image 9" class="my-card-image" />
+            </article>
+
+            
+          </div>
+        </div>
+        <div class="detail-overlay" id="detailOverlay" aria-hidden="true">
+  <div class="detail-frame" role="dialog" aria-modal="true" aria-label="Project detail overlay">
+    <button class="detail-close" id="detailClose" type="button" aria-label="Close overlay">
+      <i class="ri-close-circle-line"></i>
+    </button>
+
+    <div class="detail-scroll" id="detailScroll">
+      <img id="detailImage" class="detail-image" src="" alt="Project detail image" />
+      <div class="detail-end-space" id="detailEndSpace"></div>
+    </div>
+  </div>
+</div>
+  
+</div>
+      </section>
+    </section>
+  </div>
+
+  
+<section class="portfolio-detail">
+  <div class="feature-panel">
+    <a href="#" class="feature-close" aria-label="Close">
+      <i class="ri-close-circle-line"></i>
+    </a>
+
+    <div class="feature-copy">
+      <h2 class="feature-korean">문아현</h2>
+      <p class="feature-eng">Hilary Tang</p>
+      <p class="feature-chn">鄧雅文</p>
+    </div>
+
+    <img
+      src="images/netflix.png"
+      alt="Ahyun red logo"
+      class="feature-logo"
+    />
+  </div>
+<!-- education -->
+  <section class="education-section">
+    <div class="education-header">
+      <h2 class="education-title">Education</h2>
+      <p class="education-meta">Highest Education: University of Sydney Interaction Design and Electronic Arts Master's Degree</p>
+    </div>
+
+    <div class="education-list">
+      <!-- card 1 -->
+      <article class="education-card">
+        <div class="education-degree">Master</div>
+
+        <img
+          src="images/usyd.png"
+          alt="The University of Sydney"
+          class="education-school-image"
+        />
+
+        <div class="education-content">
+          <h3 class="education-school-name">
+  <span class="education-school-name-en">The University of Sydney</span></h3>
+    
+          <p class="education-major">
+  <span class="education-major-en">Master of Interaction Design and Electronic Arts</span>
+  
+   </p>
+          <p class="education-projects">BADAR | The Pride | NOZAMA</p>
+        </div>
+
+        <p class="education-location">Sydney Australia</p>
+      </article>
+
+      <!-- card 2 -->
+      <article class="education-card">
+        <div class="education-degree">Bachelor</div>
+
+        <img
+          src="images/usyd.png"
+          alt="The University of Sydney"
+          class="education-school-image"
+        />
+
+        <div class="education-content">
+          <h3 class="education-school-name">
+
+  <span class="education-school-name-en">The University of Sydney</span>
+</h3>
+          <p class="education-major">
+         
+  <span class="education-major-en">Bachelor of Advanced Studies (Media and Communications)</span>
+             </p>
+          <p class="education-projects">The Way to Appreciation: Korean Calligraphy</p>
+        </div>
+
+        <p class="education-location">Sydney, Australia</p>
+      </article>
+
+      <!-- card 3 -->
+      <article class="education-card">
+        <div class="education-degree">Bachelor</div>
+
+        <img
+          src="images/usyd.png"
+          alt="The University of Sydney"
+          class="education-school-image"
+        />
+
+        <div class="education-content">
+          <h3 class="education-school-name">
+
+  <span class="education-school-name-en">The University of Sydney</span>
+</h3>
+          <p class="education-major">
+  <span class="education-major-en">Bachelor of Arts (Media Studies | Korean Studies)</span>
+   </p>
+          <p class="education-projects">The Memory of 1941</p>
+        </div>
+
+        <p class="education-location">Sydney, Australia</p>
+      </article>
+
+      <!-- card 4 -->
+      <article class="education-card">
+        <div class="education-degree">Bootcamp</div>
+
+        <img
+          src="images/sesac.png"
+          alt="Bootcamp"
+          class="education-school-image"
+        />
+
+        <div class="education-content">
+          <h3 class="education-school-name">SeSAC x VOM Academy</h3>
+          <p class="education-major">Generative AI-based UX/UI Mobile Web Design Bootcamp</p>
+          <p class="education-projects">Agoda | Allit | DENIMALZ</p>
+        </div>
+
+        <p class="education-location">Seoul, South Korea</p>
+      </article>
+    </div></section>
+<!-- experience -->
+  <section class="experience-section">
+  <div class="experience-header">
+    <h2 class="experience-title">Experience</h2>
+  </div>
+
+  <div class="experience-list">
+    <!-- card 1 -->
+
+   
+         
+            
+   <article class="experience-card">
+  <div class="experience-type">Freelancer</div>
+
+  <div class="experience-top">
+    <div class="experience-text">
+      <h3 class="experience-role">UI/UX Designer • Brand Strategy</h3>
+      <p class="experience-company">Technimetal Ltd.</p>
+    </div>
+
+    <div class="experience-image-wrap">
+      <img src="images/technimetal.png" alt="Technimetal" class="experience-image" />
+    </div>
+  </div>
+    
+
+  <ul class="experience-bullets">
+    <li>Analyzed U.S. business client feedback and consumer behavior to propose web design improvements and brand strategy, delivering <strong>10+ UX improvements.</strong></li>
+          <li>Reviewed brand identity-based design proposals and improved official website UI/UX.</li>
+          <li>Collaborated with China production teams to align design and schedules, optimizing quality and efficiency.</li>
+          <li>Managed project timelines and website update workflows.</li>
+        </ul>
+
+      <p class="experience-location">Hong Kong | China</p>
+    </article>
+
+    <article class="experience-card">
+  <div class="experience-type">Contract</div>
+
+  <div class="experience-top">
+    <div class="experience-text">
+      <h3 class="experience-role">Interpreter & PR</h3>
+      <p class="experience-company">Happipet@EJ Mall Official</p>
+    </div>
+
+     <div class="experience-image-wrap">
+<img
+       src="images/happipet.png"
+        alt="Happipet"
+        class="experience-image"
+    />
+  </div>
+     </div>
+    
+
+  <ul class="experience-bullets">
+    <li>
+Provided real-time Korean ↔ Cantonese interpretation, facilitating seamless business matching and on-site consultations between Hong Kong HQ purchasing managers and participating companies.
+</li>
+
+<li>
+Improved on-site operational efficiency by pre-analyzing exhibitor booths and planning optimized buyer movement flows.
+</li>
+
+<li>
+Organized buyer profiles, interests, budgets, and orderable products using Excel, utilizing the data for post-event revenue and logistics management, resulting in a <strong>20% increase in purchase conversion</strong>.
+</li>
+
+<li>
+Supported export consultations and partnership matching between Korean and Hong Kong companies, contributing to new client acquisition and expanded networking.
+</li>
+
+<li>
+Assisted in preparing post-event reports analyzing meeting outcomes and potential collaboration opportunities.
+</li>
+  </ul>
+
+  <p class="experience-location">Hong Kong</p>
+</article>
+
+
+
+    
+
+
+    <article class="experience-card">
+  <div class="experience-type">Intern</div>
+
+  <div class="experience-top">
+    <div class="experience-text">
+      <h3 class="experience-role">K-POP SNS Promotion Intern</h3>
+      <p class="experience-company">Lok Wood Tao Company Ltd</p>
+    </div>
+
+     <div class="experience-image-wrap">
+      <img
+      src="images/lokwood.png"
+      alt="Lok Wood Tao Company"
+      class="experience-image"
+    />
+  </div>
+
+     </div>
+    
+
+  <ul class="experience-bullets">
+    <li>Analyzed Hong Kong K-pop fan behavior using Instagram data to develop localized content strategies, improving follower engagement and post performance.
+</li>
+
+<li>
+Planned Reels and story-driven content with emotion-focused editing strategies, resulting in a <strong>45% increase in average views and shares</strong>.
+</li>
+
+<li>
+Redesigned brand logo and content templates, integrating typography and color systems to strengthen visual consistency and brand professionalism.
+</li>
+
+<li>
+Established comment and DM response guidelines while simplifying design, enhancing user communication and overall engagement.
+</li>
+  </ul>
+
+  <p class="experience-location">Hong Kong</p>
+</article>
+
+  </div>
+</section>
+<!-- skill -->
+ <section class="skills-section">
+  <div class="skills-header">
+    <h2 class="skills-title">Skills</h2>
+  </div>
+
+  <div class="skills-grid">
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/figma.png" alt="Figma" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Figma</h3>
+        <p class="skill-meta"> The Pride | NOZAMA | Agoda | Allit</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top skill-card-top--orange">
+        <img src="images/illustrator.png" alt="Illustrator" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Illustrator</h3>
+        <p class="skill-meta">BADAR | The Pride | DENIMALZ</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/aftereffects.png" alt="After Effects" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">After Effects</h3>
+        <p class="skill-meta">Calligraphy | moonahyuncalli.com</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/premiere.png" alt="Premiere Pro" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Premiere Pro</h3>
+        <p class="skill-meta">The Pride | Calligraphy | The Memory of 1941</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/miro.png" alt="Miro" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Miro</h3>
+        <p class="skill-meta">BADAR | The Pride | Allit</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top skill-card-top--dark">
+        <img src="images/photoshop.png" alt="Photoshop" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Photoshop</h3>
+        <p class="skill-meta">DENIMALZ</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/indesign.png" alt="InDesign" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">InDesign</h3>
+        <p class="skill-meta">BADAR | The Pride</p>
+      </div>
+      
+    </article>
+        <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/audition.png" alt="audition" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Audition</h3>
+        <p class="skill-meta">BADAR | Calligraphy</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/excel.png" alt="MS Excel" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Excel</h3>
+        <p class="skill-meta">&nbsp;</p>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <img src="images/powerpoint.png" alt="MS PowerPoint" class="skill-logo">
+      </div>
+      <div class="skill-card-bottom">
+        <div class="skill-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="skill-name">Powerpoint</h3>
+        <p class="skill-meta">&nbsp;</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+<!-- language -->
+<section class="language-section">
+  <div class="language-header">
+    <h2 class="language-title">Language</h2>
+  </div>
+
+  <div class="language-grid">
+    <article class="language-card">
+      <div class="language-content">
+        <div class="language-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="language-name">Cantonese</h3>
+        <p class="language-meta">Native</p>
+      </div>
+      <img src="images/hk.png" alt="Hong Kong" class="language-flag">
+    </article>
+
+    <article class="language-card">
+      <div class="language-content">
+        <div class="language-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="language-name">Korean</h3>
+        <span class="language-meta">TOPIK Level 6</span>
+  <span class="language-meta-break"></span>
+  <span class="language-meta language-meta-detail">(Listening 100, Reading 98, Writing 57)</span></p>
+      </div>
+      <img src="images/kr.png" alt="Korea" class="language-flag">
+    </article>
+
+    <article class="language-card">
+      <div class="language-content">
+        <div class="language-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="language-name">English</h3>
+        <span class="language-meta">PTE (Academic) 73</span>
+  <span class="language-meta-break"></span>
+  <span class="language-meta language-meta-detail">≈ TOEIC 950</span>
+  </p>
+      </div>
+      <img src="images/au.png" alt="Australia" class="language-flag">
+    </article>
+
+    <article class="language-card">
+      <div class="language-content">
+        <div class="language-rating">
+          <i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i><i class="ri-thumb-up-fill"></i>
+        </div>
+        <h3 class="language-name">Mandarin</h3>
+        <p class="language-meta">Native</p>
+      </div>
+      <img src="images/cn.png" alt="China" class="language-flag">
+    </article>
+  </div>
+</section>
+<!-- contact -->
+ <section class="contact-section" id="contact">
+  <div class="contact-inner">
+    <div class="contact-left">
+      <h2 class="contact-title">Contact</h2>
+      <p class="contact-subtitle">Looking forward to creating the next story together!</p>
+
+      <form class="contact-box" id="contact-form">
+        <div class="contact-form-row">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" required placeholder="Company Name"/>
+        </div>
+
+        <div class="contact-form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Name" />
+        </div>
+
+        <div class="contact-form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="Email Address"/>
+        </div>
+
+        <div class="contact-form-row">
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone" required placeholder="Phone Number"/>
+        </div>
+
+        <div class=" contact-form-row contact-form-row--textarea">
+          <label for="message">Your Story</label>
+          <textarea id="message" name="message" placeholder="Every project has a story. Tell me yours."></textarea>
+        </div>
+        
+        <button type="submit" class="contact-submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="contact-right">
+      <div class="contact-info-list">
+        <div class="contact-info-item">
+          <span class="contact-info-label">Phone</span>
+          <span class="contact-info-value">010-9293-9129</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">Email</span>
+          <span class="contact-info-value">hilarytang316@gmail.com</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">KakaoTalk</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">Instagram</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+
+        <div class="contact-info-item">
+          <span class="contact-info-label">Behance</span>
+          <span class="contact-info-value">mnahyunn</span>
+        </div>
+      </div>
+
+      <img src="images/ahyunlogo.png" alt="Ahyun Logo" class="contact-logo" />
+      
+    </div>
+  </div>
+</section>
+
+
+                    
+                    
+
+</section>
+  <script src="js/custom.js"></script>
+  <script src="js/email.js"></script>
+</body>
+</html>
