@@ -801,6 +801,7 @@ body.modal-open .feature-close {
     padding-top: 150px;
     max-width: 100%;
   }
+}
 @media screen and (max-width: 820px) {
   html,
   body {
@@ -824,6 +825,7 @@ body.modal-open .feature-close {
     width: 88px;
     height: auto;
   }
+}
 @media screen and (max-width: 767px) {
   html,
   body {
