@@ -2617,7 +2617,7 @@ rgba(0,0,0,0.6) 97%,
   }
 
   .feature-chn {
-    margin: 0;
+       margin: 3px 0 20px;
     font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
     font-size: 20px;
     line-height: 1.1;
@@ -2710,13 +2710,16 @@ rgba(0,0,0,0.6) 97%,
   }
 
   .education-major,
-  .education-projects,
-  .experience-company {
+  .education-projects {
     margin-top: 14px;
     font-size: 12px;
     line-height: 1.4;
   }
-
+.experience-company {
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.4;
+      
   .education-location,
   .experience-location {
     grid-area: location;
