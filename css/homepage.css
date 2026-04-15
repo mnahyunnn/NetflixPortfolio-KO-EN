@@ -2690,7 +2690,7 @@ rgba(0,0,0,0.6) 97%,
 }
 
 .education-meta{
-  margin: 0;
+  margin: 0 0 0 10px;
 }
 
   .education-school-image,
@@ -2934,9 +2934,14 @@ rgba(0,0,0,0.6) 97%,
   display: inline;
   font-size: 10px;
 }
- .language-card:nth-child(1),
+  .language-card:nth-child(1),
   .language-card:nth-child(4) {
-    min-height: 90px;  /* 🔥 shorter */
+    height: auto;  /* 🔥 shorter */
+    padding: 8px;
+  }
+.language-card:nth-child(2),
+  .language-card:nth-child(3) {
+    height: auto;  /* 🔥 shorter */
     padding: 8px;
   }
 }
