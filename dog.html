@@ -129,26 +129,28 @@
 
 
       </header>
-<div class="doggie">
-<img src="images/doggie.png" alt="">
-</div>
-      
-
-            
-
+<<div class="doggie">
+  <img id="dogImage" src="images/doggie-en.png" alt="">
+</div> 
   
-
-
-      
-  
-</section>
-
-
-                    
-                    
+</section>             
 
 </section>
+<script>
+  function updateDogImage() {
+  const img = document.getElementById('dogImage');
+  if (window.innerWidth <= 480) {
+    img.src = 'images/doggie-long.png';
+  } else {
+    img.src = 'images/doggie-en.png';
+  }
+}
+
+window.addEventListener('load', updateDogImage);
+window.addEventListener('resize', updateDogImage);
+</script>
   <script src="js/custom.js"></script>
   <script src="js/email.js"></script>
 </body>
 </html>
+
