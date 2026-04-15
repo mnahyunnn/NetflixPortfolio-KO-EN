@@ -988,4 +988,13 @@ body.modal-open .feature-close {
   margin-top: 0px;
     overflow:auto;
 }
+      .doggie {
+    background-image: url("/images/doggie-en-long.png"); /* ✅ swapped */
+    width: 100%;
+    height: auto;              /* ✅ let image scale naturally */
+    max-height: 320px;         /* ✅ control max size */
+    object-fit: contain;
+    object-position: center;
+    margin-top: 20px;          /* ✅ reduce spacing */
+  }
 }
