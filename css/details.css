@@ -859,7 +859,8 @@ body.modal-open .feature-close {
     display: block;
     flex-shrink: 0;
   }
-
+.dropdown-signout{
+      margin-bottom: 10px}
 .nav {
   display: flex;
   flex-wrap:nowrap;
