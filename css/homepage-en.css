@@ -2431,8 +2431,8 @@ body.modal-open .feature-close {
 
         background: linear-gradient(
     to bottom,
-   rgba(0,0,0,0) 80%,
-rgba(0,0,0,0.6) 97%,
+   rgba(0,0,0,0) 70%,
+rgba(0,0,0,0.6) 80%,
 #000 100%
   );
       pointer-events: none;
